@@ -1,0 +1,244 @@
+footer {
+ background-color:#6495ED;
+ color: white;
+ padding: 0 20px;
+}
+
+.footer-logo {
+    font-size: 35px;
+    padding: 5px 20px;
+    color: white;
+}
+
+
+li {
+    list-style: none;
+}
+
+.footer-list li {
+    float: left;
+    padding: 5px 10px;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+}
+
+.profile {
+padding: 100px 150px;
+color: white;
+background-color: black;
+display: flex;
+}
+
+.profile-contents {
+    width: 50%;
+}
+
+.profile img {
+    height: 270px;
+    padding: 0 130px;
+}
+
+
+
+.profile-text {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.btn {
+    display: inline-block;
+    height: 30px;
+    width: 80px;
+    border-radius: 5px;
+    padding: 5px 10px 0 10px;
+    font-size: 15px;
+    margin: 0 auto;
+}
+
+.twitter {
+    background-color: rgb(99, 200, 247);
+    color: white;
+}
+
+.clear {
+    clear: both;
+}
+
+
+.background {
+    padding: 0 150px 50px 150px;
+    background-color: rgba(223, 255, 255, 0.959);
+    color: black;
+}
+
+.background-text {
+    margin: 0 auto;
+}
+
+.background p {
+     text-align: left;
+     padding: 0 150px;
+}
+
+h1 {
+    margin: 0px 50px;
+    padding: 30px 0 0 0 ;
+    border-bottom: 1px solid grey;
+    letter-spacing: 8px;
+    text-align: center;
+}
+
+.advantage {
+    padding: 0 100px 50px 100px;
+}
+
+
+.advantage p {
+    text-indent: 1em;
+    text-align: left;
+}
+
+.ad {
+    margin: 0 auto;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 20px 70px;
+    float: left;
+}
+
+.ad h2 {
+    text-align: center;
+}
+
+
+.achievement {
+    padding: 0 150px;
+    background-color: rgba(234, 238, 238, 0.904);
+    height: 700px;
+}
+
+.hobby {
+    margin: 0 300px;
+    height: 500px;
+}
+
+
+#slide {
+    position:relative;
+}
+
+
+
+#slide img {
+    margin: 50px auto;
+}
+
+.contact-form {
+    padding: 0 150px 50px 150px;
+    background-color: rgb(134, 174, 248);
+    color: white;
+}
+
+.contact-form p {
+    text-align: center;
+}
+
+
+input,textarea {
+    width: 300px;
+    margin: 10px auto 30px auto;
+    font-size: 18px;
+    border: 1px solid #dee7ec;
+    display: block;
+}
+
+.message {
+    padding: 30px 0;
+}
+
+@media(max-width: 1000px){
+    h1 {
+        text-align: center;
+    }
+
+    .profile-contents {
+    clear: both;
+    width: 100%;
+    margin: 0 auto;
+    }
+
+
+    .ad {
+        clear: both;
+        width: 100%;
+        padding: 20px 50px;
+    }
+
+    .profile {
+        padding: 100px 50px;
+        display: block;
+    }
+
+
+    .background {
+        padding: 0 50px 50px 50px;
+    }
+
+    .background p {
+        padding: 0 50px;
+    }
+
+    .advantage {
+        padding: 0 50px 50px 50px;
+    }
+
+    .achievement {
+        padding: 0 0 50px 0;
+    }
+
+    .hobby {
+        margin: 0 100px;
+    }
+
+
+    .hobby img {
+        max-width: 100%;
+    }
+
+    .contact-form {
+        padding: 0 50px 50px 50px;
+    }
+
+}
+
+@media(max-width: 670px){
+    .profile img {
+        padding: 0 50px;
+    }
+
+    .background {
+        padding: 0 5px 50px 5px;
+    }
+
+    .background p {
+        padding: 0 5px;
+    }
+
+    .advantage{
+        padding: 0 5px 50px 5px;
+    }
+
+    .hobby{
+        margin: 0px;
+    }
+    #slide img {
+        margin: 20px auto;
+    }
+
+    .contact-form {
+        padding: 0 5px 50px 5px;
+    }
+}
