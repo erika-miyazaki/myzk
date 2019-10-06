@@ -13,4 +13,11 @@ $(function(){
     $active.fadeOut($fade_speed).removeClass("active");
     $next.fadeIn($fade_speed).addClass("active");
     },$interval);
+    $("#submit-show").click(function(){
+        $('#submit-form').fadeIn();
+    });
+
+    $("#close-modal").click(function(){
+        $('#submit-form').fadeOut();
+    });
     });
